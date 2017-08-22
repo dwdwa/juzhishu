@@ -3,12 +3,9 @@
 .left{ float:left; display:inline;}
 .right{ float:right; display:inline;}
 li{ list-style:none;}
-a{ text-decoration:none;}
-.ltm-box{
-    width:1200px;
-    margin: 0 auto;
-}
+a{ text-decoration:none; color: #000;}
 img{border: 0;}
+/*header*/
 header{
     height: 62px;
 }
@@ -93,6 +90,10 @@ nav{
 }
 .t-nav ul li:hover{
     background:#ffb64b;
+
+}
+.t-nav ul li:hover a{
+    color: #fff;
 }
 .top-nav>ul li ul li {
     width: 100%;
@@ -107,8 +108,6 @@ nav{
     font-size: 14px;
     line-height: 40px;
 }
-
-
 /*返回上层*/
 .goTop {
     position: fixed;
@@ -144,7 +143,6 @@ nav{
     height: auto;
     position: relative;
 }
-
 .ulList {
     float: left;
     padding-top: 50px;

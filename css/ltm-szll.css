@@ -1,0 +1,289 @@
+.ltm-box{
+    width:1200px;
+    margin: 0 auto;
+}
+/*title*/
+.bg-orin {
+    background-color: #f2a02d;
+}
+.fluid {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.mianbaoNav {
+    height: 34px;
+    line-height: 34px;
+}
+.mianbaoNav p {
+    font-size: 14px;
+    color: #fff;
+}
+.mianbaoNav p a {
+    color: #fff;
+    font-size: 14px;
+}
+/*教师团队*/
+.jiaoshi-btn {
+    display: block;
+    margin: 10px auto;
+    width: 230px;
+    height: 46px;
+    background-color: #ffb238;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    line-height: 46px;
+}
+.jingtai1, .jingtai2 {
+    width: 100%;
+    height: auto;
+    overflow: auto;
+    padding: 40px 0;
+}
+.jingtai1 .js-gw-lunbo {
+    width: 646px;
+    height: 758px;
+    float: left;
+    margin-right: 20px;
+}
+.carousel-about1 {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.carousel-about1 li img {
+    display: block;
+    width: 100%;
+    height: auto!important;
+    border: 0 none;
+}
+.jingtai1 ul.haoJiaoshi {
+    overflow: hidden;
+}
+.jingtai1 ul.haoJiaoshi li {
+    width: 238px;
+    height: 346px;
+    margin-left: 26px;
+    float: left;
+    text-align: center;
+    margin-bottom: 40px;
+    box-sizing: border-box;
+}
+.jingtai1 ul.haoJiaoshi li img {
+    width: 238px;
+    height: 238px;
+    margin-bottom: 20px;
+}
+.jingtai1 ul.haoJiaoshi li h3 {
+    font-size: 24px;
+    padding-bottom: 14px;
+}
+.jingtai1 ul li p {
+    line-height: 1.5;
+    padding: 0 10px;
+}
+/*更多教师*/
+.fluid {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.js-list {
+    padding: 50px 0;
+}
+.js-list h2,.js-tuandui h2 {
+    text-align: center;
+    padding-bottom: 30px;
+    font-size: 30px;
+}
+.js-list ul {
+    width: 100%;
+    overflow: auto;
+}
+.sz-list:nth-of-type(4n+1) {
+    margin-left: 0;
+}
+.sz-list {
+    float: left;
+    width: 280px;
+    height: 398px;
+    margin-left: 26px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    text-align: center;
+    background-color: #fff;
+}
+.sz-list div.sz-img {
+    width: 100%;
+    height: 280px;
+    display: block;
+    margin-bottom: 26px;
+    position: relative;
+}
+.sz-list div.sz-img img {
+    width: 100%;
+    height: 100%;
+}
+.sz-list div.sz-img>p {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 54px;
+    line-height: 54px;
+    font-size: 18px;
+    background-color: rgba(250,250,250,0.75);
+    color: #000;
+    letter-spacing: 4px;
+}
+.sz-list span, .pp-list span {
+    display: block;
+    font-size: 16px;
+    color: #999;
+    box-sizing: border-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.fenye {
+    margin: 20px auto;
+    padding-bottom: 0;
+    padding-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+#total {
+    display: inline;
+    color: #000;
+    border: none;
+}
+label {
+    display: inline-block;
+    width: auto;
+    height: 30px;
+    border: #f2a02d 1px solid;
+    line-height: 30px;
+    font-size: 18px;
+    text-align: center;
+    padding: 3px 14px;
+    border-radius: 8px;
+    color: #444444;
+    cursor: pointer;
+}
+.fenye span.pageup, .fenye span.pagedown, .fenye span.pageend {
+    padding: 8px;
+    background-color: #f8f8f8;
+    color: #ccc;
+}
+.fenye span.current {
+    padding: 8px 24px;
+    background-color: #FFBD62;
+    color: #fff;
+}
+.fenye a {
+    border: #dbdbdb 1px solid;
+}
+.fenye a {
+    font-size: 18px;
+    color: #5f5f5f;
+    padding: 8px;
+    text-decoration: none;
+}
+/*教学风采*/
+.jingtai2 .js-yuyue {
+    width: 945px;
+    height: 540px;
+    float: left;
+}
+.jingtai2 ul {
+    width: 249px;
+    height: auto;
+    float: right;
+}
+.js-list ul {
+    overflow: auto;
+}
+.jingtai2 ul li {
+    width: 84px;
+    height: 130px;
+    margin: 0 auto 60px;
+    overflow: hidden;
+    text-align: center;
+}
+.jingtai2 ul li:nth-of-type(1) div {
+    background-position: -84px 0;
+}
+
+.jingtai2 ul li div {
+    width: 84px;
+    height: 84px;
+    background: url(../img/js-yuyue.png) no-repeat;
+}
+.jingtai2 ul li p {
+    padding: 14px 0;
+}
+/*免费评测*/
+.bg-ceping {
+    background: url(../img/bg-ceping.jpg) center no-repeat;
+    background-size: cover;
+}
+.ceping {
+    padding: 50px 0;
+    text-align: center;
+}
+.xxxg h2, .shiheRQ h2, .pingjiaList h2, .shipinCenter h2, .lianxiwomen h2, .banxing h2, .jzsZhuanzhu h2, .pj-xueyuan h2, .cjWenti h2, .ceping h2, .kcList h2, .xueyuanFC h2 {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.ceping p {
+    line-height: 3;
+}
+.ceping div.ceping-btn {
+    padding-top: 36px;
+    width: 100%;
+}
+.ceping div.ceping-btn a {
+    display: inline-block;
+    width: 224px;
+    height: 55px;
+    line-height: 55px;
+    margin: 0 50px;
+    border-radius: 4px;
+    font-size: 24px;
+    color: #fff;
+    background-color: #ffb64b;
+}
+/*就近校区*/
+.ceping iframe {
+    width: 1100px;
+    height: 460px;
+    margin: 0 auto;
+}
+.ptb50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.main-ry {
+    position: relative;
+}
+.main-xq h3, .main-xw h3, .main-sz h3, .main-ry h3 {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+    position: relative;
+}
+.ji-img {
+    width: 100%;
+    margin: 30px auto 0;
+}
+#zp {
+    display: inline-block;
+    position: absolute;
+    color: #fff;
+    right: 0;
+    bottom: 0;
+}
