@@ -1,0 +1,833 @@
+/*公共部分*/
+*{ margin:0; padding:0;}
+.clear:after{ clear:both; content:""; display:block;}
+.left{ float:left; display:inline;}
+.right{ float:right; display:inline;}
+li{ list-style:none;}
+a{ text-decoration:none;}
+/*公共部分结束*/
+
+/*产品 css*/
+
+/*产品title开始*/
+.l_cp_title{
+	width:100%;
+	height: auto;
+	background: #f2a02d;
+	margin: 0 auto;
+}
+.l_cp_title_center{
+	width: 1200px;
+	height:34px;
+	background: #f2a02d;
+	margin:  0 auto;
+}
+.l_cp_title_center>p{
+	font-size: 14px;
+	color: #fff;
+	line-height: 34px;
+}
+.l_cp_title_center>p>a{
+	font-size: 14px;
+	color: #fff;
+	line-height: 34px;
+}
+/*产品title结束*/
+
+/*产品banner部分开始*/
+.l_cp_banner{
+	width: 100%;
+	height: 334px;
+	/*background: greenyellow;*/
+	margin: 0 auto;
+}
+.l_cp_banner>img{
+	width: 100%;
+	height: 334px;
+	margin: 0 auto;
+}
+
+/*产品banner部分结束*/
+
+/*产品tab开始*/
+.l_cp_tab{
+	width: 100%;
+	height:auto;
+	background: wheat;
+	margin: 0 auto;
+}
+.l_cp_tab_center{
+	width: 1200px;
+	height: 934px;
+	background: wheat;
+	margin: 0 auto;
+}
+/*产品tab结束*/
+
+/*产品内容开始*/
+.l_cp_ryxz{
+	width:100%;
+	height: auto;
+	margin: 0 auto;
+	background: #f6f6f6;
+}
+.l_cp_ryxz_center{
+	width: 1200px;
+	height:916px;
+	background: #f6f6f6;
+	margin: 0 auto;
+}
+.l_cp_ryxz_center>h2{
+	font-size: 30px;
+	color: #000000;
+	padding-top:60px;
+	text-align: center;
+}
+.l_cp_ryxz_center_Middle{
+	width: 1200px;
+	height:auto;
+	margin-top: 30px;
+}
+.l_cp_ryxz_center_Middle_ry{
+	width: 570px;
+	height:auto;
+	margin-left: 30px;
+}
+.l_cp_ryxz_center_Middle_ry>p{
+	text-align: center;
+	line-height: 1.8;
+}
+.l_cp_ryxz_center_Middle_ry>p:nth-child(1){
+	    font-size: 24px;
+    padding-bottom: 14px;
+    font-weight: bold;
+	text-align: center;
+	line-height: 1.8;
+}
+.l_cp_ryxz_center_Middle_sl  {
+	width: 570px;
+	height: auto;
+	margin-left: 30px;
+}
+.l_cp_ryxz_center_Middle_sl>p{
+	text-align: center;
+	line-height: 1.8;
+}
+.l_cp_ryxz_center_Middle_sl>p:nth-child(1){
+	    font-size: 24px;
+    padding-bottom: 14px;
+    font-weight: bold;
+	text-align: center;
+	line-height: 1.8;
+	color: #f2a02d;
+}
+#l{
+	width: 1200px;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 40px;
+}
+/*产品内容结束*/
+
+/*产品咨询开始*/
+.l_cp_zx{
+	width:100%;
+	height: 120px;
+	margin: 0 auto; 
+}
+.l_cp_zx>a>img{
+width:100%;
+height: auto;
+}
+/*产品咨询结束*/
+
+/*产品师资力量开始*/
+.l_cp_sz{
+	width:100%;
+	height: auto;
+	margin: 0 auto;
+}
+.l_cp_sz_center{
+	width: 1200px;
+	height: 620px;
+	margin:0 auto;
+}
+.l_cp_sz_center>h2{
+	color:#000000;
+	font-size:30px ;
+	padding-top: 60px;
+	text-align: center;
+}
+.l_cp_sz_center_bo{
+	width: 1200px;
+	height: 442px;
+	margin-top: 46px;
+}
+/*产品师资力量开始*/
+/*学员开始*/
+.l_cp_xy{
+	width:100%;
+	height: auto;
+	margin: 0 auto;
+	margin-top: 80px;
+}
+.l_cp_xy_center{
+	width: 1200px;
+	height: 620px;
+	margin:0 auto;
+}
+.l_cp_xy_center>h2{
+	color:#000000;
+	font-size:30px ;
+	padding-top: 60px;
+	text-align: center;
+}
+.l_cp_xy_center_b{
+	width: 1200px;
+	height: 442px;
+	margin-top: 46px;
+}
+/*学员结束*/
+
+/*企业文化开始*/
+.l_cp_qy{
+	width:100%;
+	height: auto;
+	margin: 0 auto;
+}
+.l_cp_qy_center{
+	width: 1200px;
+	height: 814px;
+	margin: 0 auto;
+}
+.l_cp_qy_center>h2{
+	color:#000000;
+	font-size:30px ;
+	padding-top: 60px;
+	text-align: center;
+}
+.l_cp_qy_center_q{
+		width: 1200px;
+	height: 442px;
+	margin-top: 46px;
+}
+
+/*产品免费开始*/
+.l_cp_mf{
+	width: 100%;
+	height: 443px;
+	background: url(../img/bg.jpg) no-repeat center;
+	margin: 0 auto;
+}
+.l_cp_mf_center{
+	width: 1200px;
+	height: 443px;
+	margin: 0 auto;
+}
+.l_cp_mf_center>h2{
+	font-size:30px;
+	padding-top: 59px;
+	text-align: center;
+}
+.l_cp_mf_center_p{
+	width:1200px;
+	height:192px;
+	margin-top: 38px;
+}
+.l_cp_mf_center_p>p{
+	line-height: 3;
+	text-align: center;
+}
+.l_cp_mf_center_zx{
+	width:1200px;
+	height:91px;
+    margin-top: 36px;
+	/*background: red;*/
+	margin: 0 auto;
+}
+.l_cp_mf_center_zx>a{
+  display: inline-block;
+    width: 224px;
+    height: 55px;
+    line-height: 55px;
+    margin-top:20px;
+	border-radius: 4px;
+    font-size: 24px;
+    color: #fff;
+    background-color: #ffb64b;
+    text-align: center;
+}
+.l_cp_mf_center_zx>a:nth-child(1){
+margin-left: 320px ;
+}
+.l_cp_mf_center_zx>a:nth-child(2){
+margin-left: 80px ;
+}
+/*产品免费结束*/
+
+/*产品官方开始*/
+.l_cp_gf{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+.l_cp_gf_center{
+	width: 1200px;
+	height:704px;
+	margin: 0 auto;
+}
+.l_cp_gf_center>h2{
+	text-align: center;
+	font-size: 30px;
+	padding-top: 58px;
+
+}
+.l_cp_gf_center_zy{
+	width: 1200px;
+	height: 511px;
+	margin-top:56px;
+}
+/*产品官方结束*/
+
+/*企业文化结束*/
+
+
+/*歌唱培训css 开始*/
+
+/*了解声乐开始*/
+.l_gc_conter_content{
+	width: 100%;
+	height: auto;
+	margin: 0 auto;
+}
+.l_gc_conter_center{
+  width: 1200px;
+  height: 512px;
+ /*background:aqua;*/
+ padding-top: 75px;
+ margin: 0 auto;
+}
+.l_gc_center_sing{
+	width:904px;
+	height:370px;
+	background: #f6f6f6 ;
+    margin: 0 auto;
+}
+.l_gc_center_s_l{
+	width:324px;
+	height: 370px;
+}
+.l_gc_center_s_r{
+	width: 580px;
+	height: 370px;
+}
+.l_gc_center_s_r>h2{
+	font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.l_gc_center_s_r>p{
+	width: 422px;
+	height: 119px;
+	    font-size: 16px;
+    text-indent: 2em;
+    line-height: 2.1;
+    margin-left:80px ;
+}
+/*了解声乐结束*/
+
+/*唱法介绍开始*/
+.l_gc_cf{
+	width: 100%;
+	height: auto;
+	background: #f6f6f6;
+	margin: 0 auto;
+}
+.l_gc_cf_center{
+	width: 1200px;
+	height: 672px;
+	margin: 0 auto;
+}
+.l_gc_cf_center>h2{
+font-size:1.3em;
+color:#000000 ;
+text-align: center;
+padding-top: 58px;
+}
+.l_gc_cf_center>h3{
+font-size:24px;
+color:#666;
+text-align: center;
+padding-top: 1px;
+}
+.l_gc_cf_center_c{
+	width: 1200px;
+	height:427px;
+	margin-top: 34px;
+}
+.l_gc_cf_center_c_b{
+	width:386px;
+	height:450px;
+	margin-left: 20px;
+}
+.l_gc_cf_center_c_b:nth-child(1){
+margin-left: 0px;
+}
+.l_gc_cf_center_c_b>h4{
+	text-align: center;
+    color: #000000;
+    font-size: 24px;
+    margin-top: 25px;
+}
+.l_gc_cf_center_c_b>p{
+	color:#666;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 19px;
+    margin-top: 24px;
+}
+/*唱法介绍结束*/
+
+/*fluid开始*/
+.l_fluid{
+	width: 100%;
+	height: auto;
+	background: #000000;
+	margin: 0 auto;
+}
+.l_fluid_center{
+	width: 1200px;
+	height:auto;
+	margin:0 auto ;
+}
+.l_fluid_center>img{
+	margin-top: 83px;
+}
+/*fluid结束*/
+
+/*声乐课程开始*/
+.l_gc_sy{
+	width: 100%;
+	height: auto;
+	margin:  0 auto;
+	background: #f6f6f6;
+}
+.l_gc_sy_center{
+	width: 1200px;
+	height:1182px;
+	/*background: aqua;*/
+	margin: 0 auto;
+}
+.l_gc_sy_center>h2{
+	color: #000000;
+	font-size:30px;
+	text-align: center;
+	padding-top:87px ;
+}
+.l_gc_sy_center-b{
+	width: 1200px;
+	height: 948px;
+	/*background:wheat;*/
+	margin-top: 22px;
+}
+.l_gc_sy_center-b>a{
+	display: inline-block;
+	width:280px;
+	height:314px;
+	margin-left: 16px;
+	margin-top:15px;
+}
+.l_gc_sy_center-b>a>p{
+	text-align: center;
+    line-height: 2;
+    color: #000;
+}
+.l_gc_sy_center-b>a:hover{
+	display: inline-block;
+	width:280px;
+	height:314px;
+	box-shadow:5px 5px  10px #D4D4D4,-5px -5px  10px #D4D4D4;
+	transform: 2s;
+}
+/*声乐课程结束*/
+
+/*课程流程开始*/
+.l_gc_kc{
+	width: 100%;
+	height: 651px;
+	background: #f6f6f6;
+	margin: 0 auto;
+}
+.l_gc_kc_center{
+	width: 1200px;
+	height: 651px;
+	margin: 0 auto;
+}
+.l_gc_kc_center>h2{
+	font-size: 30px;
+	text-align: center;
+	padding-bottom: 20px;
+}
+.l_gc_kc_center>h3{
+	    font-size: 16px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: normal;
+    color: #333;
+}
+.l_gc_kc_center_b{
+	width: 1200px;
+	height:460px;
+		background: url(../img/header5.png) no-repeat center;
+		margin-top: 40px;
+		position: relative
+}
+.l_gc_kc_center_b_c{
+	width: 300px;
+	height:120px;
+	position: absolute;
+	left:145px;
+	top:45px;
+}
+.l_gc_kc_center_b_l{
+	width: 120px;
+	height: 120px;
+}
+.l_gc_kc_center_b_r{
+	width:170px;
+	height:146px;
+}
+.l_gc_kc_center_b_r>p{
+	display: inline-block;
+	padding-top:26px;
+	    font-size: 20px;
+    color: #333;
+}
+.l_gc_kc_center_b_c:nth-child(2){
+	width: 300px;
+	height:120px;
+	position: absolute;
+	left:283px;
+	top:277px;
+}
+.l_gc_kc_center_b_c:nth-child(3){
+	width: 300px;
+	height:120px;
+	position: absolute;
+	left:473px;
+	top:45px;
+}
+.l_gc_kc_center_b_c:nth-child(4){
+	width: 300px;
+	height:120px;
+	position: absolute;
+	left:616px;
+	top:277px;
+}
+.l_gc_kc_center_b_c:nth-child(5){
+	width: 300px;
+	height:120px;
+	position: absolute;
+	left:816px;
+	top:45px;
+}
+/*课程流程结束*/
+
+/*学习效果：想唱就唱开始*/
+.l_gc_xg{
+	width:100%;
+	height:auto;
+	background: #f6f6f6;
+	margin: 0 auto;
+}
+.l_gc_xg_center{
+	width: 1200px;
+	height: 512px;
+	margin: 0 auto;
+}
+.l_gc_xg_center>h2{
+	padding-top: 57px;
+	font-size: 30px;
+	text-align: center;
+}
+.l_gc_xg_center_no{
+	width: 1200px;
+	height: 372px;
+	margin-top: 30px;
+}
+.l_gc_xg_center_non{
+	width:280px;
+	height:130px;
+	margin-left: 80px;
+	margin-top: 57px;
+}
+.l_gc_xg_center_non_l{
+	width:130px;
+	height:130px;
+}
+.l_gc_xg_center_non_r{
+	width:126px;
+	height: 130px;
+}
+.l_gc_xg_center_non_t{
+	position: relative
+	width: 77px;
+	height: 30px;
+	background: #f2a02d;
+}
+.l_gc_xg_center_non_r>p{
+text-align: left;
+margin-top: 20px;
+}
+/*学习效果：想唱就唱结束*/
+
+/*适合人群开始*/
+.l_gc_sh{
+	width:100%;
+	height: auto;
+	margin:  0 auto;
+}
+.l_gc_sh_center{
+	width:1200px;
+	height: 461px;
+	margin: 0 auto;
+}
+.l_gc_sh_center>h2{
+	    font-size: 30px;
+    text-align: center;
+    padding-top: 54px;
+}
+.l_gc_sh_center_b{
+	width: 1200px;
+	height:250px;
+	margin-top: 22px;
+}
+.l_gc_sh_center_b>img{
+	display: inline-block;
+	margin-left:130px;
+}
+.l_gc_sh_center>p{
+	text-align: center;
+	margin-top: 37px;
+}
+
+/*班型设置与开课信息开始*/
+.l_gc_bj{
+	width:100%;
+	height: 714px;
+	margin: 0 auto;
+}
+.l_gc_bj_center{
+	width: 1200px;
+	height: 714px;
+	margin:0 auto;
+}
+.l_gc_bj_center>h2{
+	font-size: 30px;
+	text-align: center;
+	padding-top:40px;
+}
+.l_gc_bj_center_t{
+	width: 1100px;
+	height: 476px;
+	margin: 0 auto;
+	margin-top: 26px;
+}
+.l_gc_bj_center_t>table>thead{
+	display:inline-block;
+	width: 1100px;
+	height: 97px;
+	background:#f6f6f6;
+	border-bottom:1px solid #e6e6e6;
+}
+.l_gc_bj_center_t>table>thead>tr>td{
+	width: 317px;
+	height: 97px;
+	text-align: center;
+	line-height: 97px;
+	font-size: 28px;
+	color: #000000;
+}
+.l_gc_bj_center_b{
+	width:1100px;
+	height:378px;
+	margin: 0 auto;
+}
+.l_gc_bj_center_b>table:nth-child(1){
+	width: 1100px;
+	height: 54px;
+	background:#ffffff;
+	border-bottom: 1px solid  #e6e6e6;
+}
+.l_gc_bj_center_b>table:nth-child(2){
+	width: 1100px;
+	height: 54px;
+	background:#f6f6f6 ;
+	border-bottom: 1px solid  #e6e6e6;
+}
+.l_gc_bj_center_b>table:nth-child(3){
+	width: 1100px;
+	height: 54px;
+	background:#ffffff;
+	border-bottom: 1px solid  #e6e6e6;
+}
+.l_gc_bj_center_b>table:nth-child(4){
+	width: 1100px;
+	height: 54px;
+	background:#f6f6f6 ;
+	border-bottom: 1px solid  #e6e6e6;
+}
+.l_gc_bj_center_b>table:nth-child(5){
+	width: 1100px;
+	height: 54px;
+	background:#ffffff;
+	border-bottom: 1px solid  #e6e6e6;
+}
+.l_gc_bj_center_b>table:nth-child(6){
+	width: 1100px;
+	height: 54px;
+	background:#f6f6f6 ;
+	border-bottom: 1px solid  #e6e6e6;
+}
+.l_gc_bj_center_b>table:nth-child(7){
+	width: 1100px;
+	height: 54px;
+	background:#ffffff;
+	border-bottom: 1px solid  #e6e6e6;
+}
+.l_gc_bj_center_b>table>thead>tr>td{
+	width: 317px;
+	height: 54px;
+	text-align: center;
+	line-height: 54px;
+	font-size:22px;
+	color: #000000;
+	}
+.l_gc_bj_center_b>table>thead>tr>td>a{
+	color: #f2a02d; 
+	font-size:22px;
+	}
+/*班型设置与开课信息结束*/
+
+/*师资力量开始*/
+.l_gc_sz_{
+	width:100%;
+	height: 1121px;
+	margin: 0 auto;
+}
+.l_gc_sz_cneter{
+	width: 1200px;
+	height: 1121px;
+	/*background:aquamarine;*/
+	margin: 0 auto;
+}
+.l_gc_sz_cneter>h3{
+	text-align: center;
+  font-size:30px;
+  padding-top: 60px;
+}
+.l_gc_sz_cneter>h4{
+	color:#999;
+	font-size:16px;
+	text-align: center;
+    padding-top:18px;
+}
+.l_gc_sz_cneter_js{
+	width: 1200px;
+	height: 856px;
+	margin-top:22px ;
+	/*background: antiquewhite;*/
+}
+.l_gc_sz_cneter_h{
+	width: 280px;
+	height: 377px;
+	margin-left:20px;
+	margin-top: 52px;
+}
+.l_gc_sz_cneter_t{
+	width: 280px;
+	height: 280px;
+	
+}
+.l_gc_sz_cneter_t>a>img{
+	width: 280px;
+	height: 280px;
+	position: absolute;
+}
+.l_gc_sz_cneter_d{
+	display: inline-block;
+	width:280px;
+	height:52px;
+	background: #FFFFFF;
+	position:relative;
+	margin-top:228px;
+	opacity:0.75;
+}
+.l_gc_sz_cneter_d>a{
+	display: block;
+	text-align: center;
+	line-height: 52px;
+	font-size: 18px;
+	color:#000;
+}
+.l_gc_sz_cneter_b{
+	width:280px;
+	height:97px;
+}
+.l_gc_sz_cneter_b>a{
+	display: block;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 16px;
+	color: #666
+}
+.l_gc_sz_cneter_a{
+	width:230px;
+	height:46px;
+	background: #f2a02d;
+	margin:0 auto;
+	margin-top:30px;
+}
+.l_gc_sz_cneter_a>a{
+    display: block;
+	text-align: center;
+   line-height: 46px;
+   font-size: 24px;
+   color: #fff;
+}
+/*师资力量结束*/
+
+/*学院风采开始*/
+.l_gc_fc{
+	width: 100%;
+	height: auto;
+	background: #f6f6f6;
+	margin: 0 auto;
+}
+.l_gc_fc_center{
+	width: 1200px;
+	height:751px;
+	background: aqua;
+	margin: 0 auto;
+}
+.l_gc_fc_center>h3{
+	color: #000;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 55px;
+	position: relative;
+}
+.l_gc_fc_center>h3>a{
+	display: block;
+	width: 32px;
+	height: 21px;
+	font-size: 16px;
+    color: #ffb64b;
+    position: absolute;
+    top: 60px;
+    right: 0;
+}
+/*学院风采结束*/
+/*歌唱培训css结束*/

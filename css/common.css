@@ -1,0 +1,6 @@
+*{ margin:0; padding:0;}
+.clear:after{ clear:both; content:""; display:block;}
+.left{ float:left; display:inline;}
+.right{ float:right; display:inline;}
+li{ list-style:none;}
+a{ text-decoration:none;}
