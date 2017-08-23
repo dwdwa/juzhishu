@@ -34,20 +34,6 @@ a{ text-decoration:none;}
 }
 /*产品title结束*/
 
-/*产品banner部分开始*/
-.l_cp_banner{
-	width: 100%;
-	height: 337px;
-	/*background: greenyellow;*/
-	margin: 0 auto;
-}
-.l_cp_banner>img{
-	width: 100%;
-	height: 337px;
-	margin: 0 auto;
-}
-
-/*产品banner部分结束*/
 
 /*产品tab开始*/
 .l_cp_tab{
@@ -996,6 +982,7 @@ margin-top: 141px;
 	color:#333;
 	overflow: hidden;
 	line-height: 1.5;
+		text-indent:25px ;
 }
 
 .l_gc_pj_center_l_d>span{
@@ -1132,6 +1119,8 @@ margin-left: 80px ;
 /*歌唱培训css结束*/
 
 /*舞蹈css开始*/
+
+/*banner下边开始*/
 .l_wd{
 	width: 100%;
 	height:788px;
@@ -1141,12 +1130,69 @@ margin-left: 80px ;
 .l_wd_center{
 	width: 1200px;
 	height: 788px;
-	background: aqua;
+	/*background: aqua;*/
 	margin: 0 auto;
 }
 .l_wd_center_h{
+	width:1197px;
+	height:610px;
+	padding-top:79px;
+	margin-left:19px;
+}
+.l_wd_center_h_a{
 	width: 280px;
 	height: 314px;
-	background: wheat;
+	margin-left:19px;
+	margin-top:13px;
 }
-/*舞蹈css结束*/
+.l_wd_center_h_a>a{
+	text-align: center;
+	color: #000;
+}
+.l_wd_center_h_a:hover{
+box-shadow:5px 5px  10px #D4D4D4,-5px -5px  10px #D4D4D4;
+transform: 2s;	
+}
+/*banner下边结束*/
+
+/*了解舞蹈开始*/
+.l_wd_lj{
+	width: 100%;
+	height:510px;
+	/*background:red;*/
+	margin: 0 auto;
+}
+.l_wd_lj_center{
+	width:1200px;
+	height: auto;
+	margin: 0 auto;
+	 padding:70px 0;
+	/*background: aquamarine;*/
+}
+.l_wd_lj_center_js{
+	width:906px;
+	height: 370px;
+	background:#f6f6f6;
+	margin: 0 auto;
+}
+.l_wd_lj_center_js_r{
+	width:582px;
+	height:370px;
+}
+.l_wd_lj_center_js_r>h2{
+font-size: 30px;
+text-align: center;
+    margin-top: 50px;
+    padding-bottom: 20px;
+}
+.l_wd_lj_center_js_r>p{
+	width: 422px;
+	height: 86px;
+	    font-size: 16px;
+    text-indent: 2em;
+    line-height: 2.1;
+    text-align: left;
+    margin-left: 79px;
+}
+/*了解舞蹈结束*/
+/*舞蹈css结束*/	
