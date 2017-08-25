@@ -1,0 +1,214 @@
+.ltm-box{
+    width:1200px;
+    margin: 0 auto;
+}
+/*title*/
+.bg-orin {
+    background-color: #f2a02d;
+}
+.fluid {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.mianbaoNav {
+    height: 34px;
+    line-height: 34px;
+}
+.mianbaoNav p {
+    font-size: 14px;
+    color: #fff;
+}
+.mianbaoNav p a {
+    color: #fff;
+    font-size: 14px;
+}
+/*学员评价*/
+.pingjiaList h2{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.pingjiaList ul {
+    width: 100%;
+    overflow: auto;
+}
+.pingjiaList ul li:nth-of-type(3n+1) {
+    margin-left: 0;
+}
+.pingjiaList ul li {
+    float: left;
+    width: 380px;
+    height: 454px;
+    margin: 0 0 30px 30px;
+    box-sizing: border-box;
+    padding: 20px 26px;
+    background-color: #f6f6f6;
+    overflow: hidden;
+}
+.pingjiaList ul li div.xypjImg {
+    width: 100%;
+    height: 240px;
+    margin-bottom: 16px;
+}
+.pingjiaList ul li img {
+    width: 100%;
+    height: 100%;
+}
+.pingjiaList ul li h3 {
+    font-size: 24px;
+}
+.pingjiaList ul li div.xypjCont {
+    margin-top: 10px;
+    width: 100%;
+    height: 115px;
+    overflow: hidden;
+    line-height: 1.8;
+    text-indent: 2em;
+    text-overflow: ellipsis;
+}
+.fenye {
+    margin: 20px auto;
+    padding-bottom: 0;
+    padding-top: 10px;
+    text-align: center;
+    width: 100%;
+}
+#total {
+    display: inline;
+    color: #000;
+    border: none;
+}
+label {
+    display: inline-block;
+    width: auto;
+    height: 30px;
+    border: #f2a02d 1px solid;
+    line-height: 30px;
+    font-size: 18px;
+    text-align: center;
+    padding: 3px 14px;
+    border-radius: 8px;
+    color: #444444;
+    cursor: pointer;
+}
+.fenye span.pageup, .fenye span.pagedown, .fenye span.pageend {
+    padding: 8px;
+    background-color: #f8f8f8;
+    color: #ccc;
+}
+.fenye span.current {
+    padding: 8px 24px;
+    background-color: #FFBD62;
+    color: #fff;
+}
+.fenye a {
+    border: #dbdbdb 1px solid;
+}
+.fenye a {
+    font-size: 18px;
+    color: #5f5f5f;
+    padding: 8px;
+    text-decoration: none;
+}
+/*免费评测*/
+.bg-ceping {
+    background: url(../img/bg-ceping.jpg) center no-repeat;
+    background-size: cover;
+}
+.ceping {
+    padding: 50px 0;
+    text-align: center;
+}
+.xxxg h2, .shiheRQ h2, .pingjiaList h2, .shipinCenter h2, .lianxiwomen h2, .banxing h2, .jzsZhuanzhu h2, .pj-xueyuan h2, .cjWenti h2, .ceping h2, .kcList h2, .xueyuanFC h2 {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+.ceping p {
+    line-height: 3;
+}
+.ceping div.ceping-btn {
+    padding-top: 36px;
+    width: 100%;
+}
+.ceping div.ceping-btn a {
+    display: inline-block;
+    width: 224px;
+    height: 55px;
+    line-height: 55px;
+    margin: 0 50px;
+    border-radius: 4px;
+    font-size: 24px;
+    color: #fff;
+    background-color: #ffb64b;
+}
+/*就近校区*/
+.ceping iframe {
+    width: 1100px;
+    height: 460px;
+    margin: 0 auto;
+}
+.ptb50 {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.main-ry {
+    position: relative;
+}
+.main-xq h3, .main-xw h3, .main-sz h3, .main-ry h3 {
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 20px;
+    position: relative;
+}
+.ji-img {
+    width: 100%;
+    margin: 30px auto 0;
+}
+#zp {
+    display: inline-block;
+    position: absolute;
+    color: #fff;
+    right: 0;
+    bottom: 0;
+}
+.showpingjia div.showpjCont {
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 40px 80px 0 0;
+}
+.showpingjia div.showpjCont p {
+    text-indent: 2em;
+    line-height: 2;
+    padding-bottom: 40px;
+}
+.showpingjia div.showpjCont a {
+    cursor: pointer;
+}
+.zixun-btn {
+    display: block;
+    margin: 30px auto;
+    width: 230px;
+    height: 46px;
+    background-color: #f2a02d;
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    line-height: 46px;
+    border-radius: 4px;
+}
+.showpingjia div.showpjImg {
+    float: left;
+    width: 360px;
+    height: auto;
+    margin: 0 80px 20px 76px;
+}
+.showpingjia div.showpjImg p {
+    text-align: center;
+    font-size: 26px;
+    padding: 10px 0;
+    color: #f2a02d;
+}

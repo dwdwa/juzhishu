@@ -34,8 +34,8 @@ onscroll = function(){
 //轮播
 $(function() {
     var width = innerWidth;
-    var speed = 75+'%';
-    var delay = 4000;
+    var speed =1000;
+    var delay = 5000;
     var now = 0;
     var max = 6;
     var $imgs = $('.ltm-lunbo-imgs');
@@ -127,7 +127,7 @@ $(function () {
 });
 /*师资力量 */
 $(function(){
-    $.getJSON("ltmJson.json",function(datas){
+    $.getJSON("js/ltmJson.json",function(datas){
         var data=datas.shouye;
         console.log(datas);
         $.each(data,function(i,item){
@@ -198,7 +198,26 @@ $(function(){
                 '</li>');
         })
     });
+    //学员评价
+    $.getJSON("../ltmJson.json",function(datas){
+        var data=datas.xypj;
+        console.log(datas);
+        $.each(data,function(i,item){
+            $('#ltm-qwe').append('<li>' +
+                '<a href="" target="_blank">' +
+                    '<div class="xypjImg">' +
+                        '<img src="'+item.img+'" alt="'+item.name+'" title="'+item.name+'">' +
+                    '</div>' +
+                    '<h3>'+item.name+'</h3>' +
+                    '<hr>' +
+                    '<div class="xypjCont">'+item.con +'</div>' +
+                '</a>' +
+           '</li>');
+        })
+    });
 });
+var wordL=document.querySelector('.wordL');
+wordL.style.height=innerHeight+'px';
 
 
 

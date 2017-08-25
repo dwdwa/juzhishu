@@ -401,12 +401,12 @@ margin-left: 0px;
 .l_gc_kc_center>h2{
 	font-size: 30px;
 	text-align: center;
-	padding-bottom: 20px;
+	padding-top:50px;
 }
 .l_gc_kc_center>h3{
 	font-size: 16px;
     text-align: center;
-    padding-bottom: 20px;
+    padding-top: 20px;
     font-weight: normal;
     color: #333;
 }
@@ -579,12 +579,12 @@ margin-top: 20px;
 /*班型设置与开课信息开始*/
 .l_gc_bj{
 	width:100%;
-	height: 714px;
+	height: auto;
 	margin: 0 auto;
 }
 .l_gc_bj_center{
 	width: 1200px;
-	height: 714px;
+	height: auto;
 	margin:0 auto;
 }
 .l_gc_bj_center>h2{
@@ -594,7 +594,7 @@ margin-top: 20px;
 }
 .l_gc_bj_center_t{
 	width: 1100px;
-	height: 476px;
+	height: auto;
 	margin: 0 auto;
 	margin-top: 26px;
 }
@@ -615,7 +615,7 @@ margin-top: 20px;
 }
 .l_gc_bj_center_b{
 	width:1100px;
-	height:378px;
+	height:auto;
 	margin: 0 auto;
 }
 .l_gc_bj_center_b>table:nth-child(1){
@@ -1145,13 +1145,27 @@ margin-left: 80px ;
 	margin-left:19px;
 	margin-top:13px;
 }
+.l_qy_center_h_a{
+	width: 280px;
+	height: 314px;
+	margin-left:19px;
+	margin-top:13px;
+}
+.l_qy_center_h_a:nth-child(5):hover{
+box-shadow:0px 0px  0px #D4D4D4,0px 0px  0px #D4D4D4;
+transform: 0s;	
+}
+.l_qy_center_h_a:nth-child(8):hover{
+box-shadow:0px 0px  0px #D4D4D4,0px 0px  0px #D4D4D4;
+transform: 0s;	
+}
 .l_wd_center_h_a>a{
 	text-align: center;
 	color: #000;
 }
 .l_wd_center_h_a:hover{
 box-shadow:5px 5px  10px #D4D4D4,-5px -5px  10px #D4D4D4;
-transform: 2s;	
+transform: 5s;	
 }
 /*banner下边结束*/
 
@@ -1195,4 +1209,22 @@ text-align: center;
     margin-left: 79px;
 }
 /*了解舞蹈结束*/
-/*舞蹈css结束*/	
+/*舞蹈css结束*/
+
+
+
+/*美术css开始*/
+.l_ms{
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background: #f6f6f6;	
+}
+.l_ms_center{
+	width: 1200px;
+	height: 454px;
+	margin: 0 auto;
+	background: aqua;
+}
+
+/*美术css结束*/	
