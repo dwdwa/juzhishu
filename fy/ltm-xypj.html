@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>学员评价</title>
+    <link rel="stylesheet" href="../css/ltm-xypj.css">
+    <link rel="stylesheet" href="../css/common.css">
+    <script src="../js/jquery-1.11.3.min.js"></script>
+</head>
+<body>
+<!--吸顶条 start-->
+<nav class="fluid bg-dhui" id="ltmNav">
+    <div class="container top-nav ltm-box clear">
+        <ul class="clear">
+            <li class="t-nav">
+                <a href="common/ltm-header.html">首页</a>
+            </li>
+            <li class="t-nav">
+                <a href="common/ltm-header.html" target="_blank">品牌介绍</a>
+                <ul>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">品牌介绍</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">发展历程</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="t-nav">
+                <a href="#" target="_blank" style="">歌唱培训</a>
+                <ul>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">少儿声乐</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">成人声乐</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">流行唱法</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">民族唱法</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">美声唱法</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">童 &nbsp;&nbsp;声</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="t-nav">
+                <a href="#">舞蹈培训</a>
+                <ul>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">少儿舞蹈</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">成人舞蹈</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">民族舞</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">古典舞</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">中国舞</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">芭蕾舞</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">爵士舞</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">拉丁舞</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">街 &nbsp;&nbsp;舞</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">现代舞</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">肚皮舞</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">交谊舞</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="t-nav">
+                <a href="#" target="_blank">器乐培训</a>
+                <ul>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">少儿器乐</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">成人器乐</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">钢 &nbsp;&nbsp;琴</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">吉 &nbsp;&nbsp;他</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">架子鼓</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">尤克里里</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="t-nav">
+                <a href="#" target="_blank">美术培训</a>
+                <ul>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">少儿美术</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">成人美术</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">素 &nbsp;&nbsp;描</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">国 &nbsp;&nbsp;画</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">油 &nbsp;&nbsp;画</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">水 &nbsp;&nbsp;粉</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">漫 &nbsp;&nbsp;画</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="t-nav">
+                <a href="#" target="_blank" style="">艺考考级</a>
+                <ul>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">艺考声乐</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">艺考舞蹈</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">艺考器乐</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">社会考级</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">特长考试</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="t-nav">
+                <a href="#" target="_blank" style="">学员风采</a>
+                <ul>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">超级星秀</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">歌唱大赛</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">才艺大赛</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="t-nav">
+                <a href="#" target="_blank" style="">精彩视频</a>
+            </li>
+            <li class="t-nav">
+                <a href="#" target="_blank" style="">新闻动态</a>
+                <ul>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">校区动态</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">行业资讯</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">知识分享</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="t-nav">
+                <a href="#" target="_blank" style="">校区分布</a>
+                <ul>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">青年路</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">公主坟</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">东直门</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">西直门</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">大望路</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">亚运村</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">中关村</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">崇文门</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">五道口</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">望 &nbsp;&nbsp;京</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">回龙观</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">磁器口</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">通 &nbsp;&nbsp;州</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!--吸顶条 end-->
+<!--header start-->
+<header>
+    <div class="ltm-box clear">
+        <img src="../img/ltm-logo.png" alt="" class="left ltm-logo">
+        <span class="left">TEL：400-616-9916</span>
+        <ul class="clear left">
+            <li>
+                <a href="#">
+                    <dl>
+                        <dt><img src="../img/ltm-header1.png" alt=""></dt>
+                        <dd>师资力量</dd>
+                    </dl>
+                </a>
+            </li>
+            <p></p>
+            <li>
+                <a href="#">
+                    <dl>
+                        <dt><img src="../img/ltm-header2.png" alt=""></dt>
+                        <dd>教学模式</dd>
+                    </dl>
+                </a>
+            </li>
+            <p></p>
+            <li>
+                <a href="#">
+                    <dl>
+                        <dt><img src="../img/ltm-header3.png" alt=""></dt>
+                        <dd>课程研发</dd>
+                    </dl>
+                </a>
+            </li>
+            <p></p>
+            <li>
+                <a href="#">
+                    <dl>
+                        <dt><img src="../img/ltm-header4.png" alt=""></dt>
+                        <dd>学员评价</dd>
+                    </dl>
+                </a>
+            </li>
+            <p></p>
+            <li>
+                <a href="#">
+                    <dl>
+                        <dt><img src="../img/ltm-header5.png" alt=""></dt>
+                        <dd>联系我们</dd>
+                    </dl>
+                </a>
+            </li>
+        </ul>
+    </div>
+</header>
+<!--header end-->
+<div class="clear"></div>
+<!--nav start-->
+<nav class="fluid bg-dhui">
+    <div class="container top-nav ltm-box clear">
+        <ul class="clear">
+            <li class="t-nav">
+                <a href="#">首页</a>
+            </li>
+            <li class="t-nav">
+                <a href="#" target="_blank">品牌介绍</a>
+                <ul>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">品牌介绍</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">发展历程</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="t-nav">
+                <a href="#" target="_blank" style="">歌唱培训</a>
+                <ul>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">少儿声乐</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">成人声乐</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">流行唱法</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">民族唱法</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">美声唱法</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">童 &nbsp;&nbsp;声</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="t-nav">
+                <a href="#">舞蹈培训</a>
+                <ul>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">少儿舞蹈</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">成人舞蹈</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">民族舞</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">古典舞</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">中国舞</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">芭蕾舞</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">爵士舞</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">拉丁舞</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">街 &nbsp;&nbsp;舞</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">现代舞</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">肚皮舞</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">交谊舞</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="t-nav">
+                <a href="#" target="_blank">器乐培训</a>
+                <ul>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">少儿器乐</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">成人器乐</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">钢 &nbsp;&nbsp;琴</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">吉 &nbsp;&nbsp;他</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">架子鼓</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">尤克里里</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="t-nav">
+                <a href="#" target="_blank">美术培训</a>
+                <ul>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">少儿美术</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">成人美术</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">素 &nbsp;&nbsp;描</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">国 &nbsp;&nbsp;画</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">油 &nbsp;&nbsp;画</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">水 &nbsp;&nbsp;粉</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">漫 &nbsp;&nbsp;画</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="t-nav">
+                <a href="#" target="_blank" style="">艺考考级</a>
+                <ul>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">艺考声乐</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">艺考舞蹈</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">艺考器乐</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">社会考级</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">特长考试</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="t-nav">
+                <a href="#" target="_blank" style="">学员风采</a>
+                <ul>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">超级星秀</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">歌唱大赛</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">才艺大赛</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="t-nav">
+                <a href="#" target="_blank" style="">精彩视频</a>
+            </li>
+            <li class="t-nav">
+                <a href="#" target="_blank" style="">新闻动态</a>
+                <ul>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">校区动态</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">行业资讯</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">知识分享</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="t-nav">
+                <a href="#" target="_blank" style="">校区分布</a>
+                <ul>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">青年路</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">公主坟</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">东直门</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">西直门</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">大望路</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">亚运村</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">中关村</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">崇文门</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">五道口</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">望 &nbsp;&nbsp;京</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">回龙观</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">磁器口</a>
+                    </li>
+                    <li class="t-nav2">
+                        <a href="#" target="_blank">通 &nbsp;&nbsp;州</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!--nav end-->
+<!--title start-->
+<div class="fluid bg-orin">
+    <div class="ltm-box mianbaoNav">
+        <p>当前位置：<a href="/">首页</a>&nbsp;&gt;&nbsp;<a href="">教学课程中心</a>
+        </p>
+    </div>
+</div>
+<!--title end-->
+<!--banner start-->
+<div class="fluid bg-hei">
+    <img src="../img/bn-nav-pingjia.jpg" alt="" style="width: 100%;display: block;min-width: 1200px;">
+</div>
+<div class="clear"></div>
+<!--banner end-->
+<!--学员评价 start-->
+<div class="clear"></div>
+<div class="fluid">
+    <div class="ltm-box pingjiaList">
+        <h2>学员评价</h2>
+        <ul id="ltm-qwe">
+            <!--<li>-->
+                <!--<a href="" target="_blank">-->
+                    <!--<div class="xypjImg">-->
+                        <!--<img src="../img/1494319112.jpg" alt="杨怡果">-->
+                    <!--</div>-->
+                    <!--<h3>桔子树学员：杨怡果</h3>-->
+                    <!--<hr>-->
+                    <!--<div class="xypjCont">-->
+                        <!--<span style="color: rgb(115, 115, 115); font-family: 微软雅黑;">-->
+                            <!--和蔼亲切，专业严谨，认真踏实，非常受孩子的喜爱。-->
+                            <!--给孩子制定属于她的教学计划，感觉孩子进步的很快，-->
+                            <!--学到的东西非常的专业，每节课老师都会做很多的示范，-->
+                            <!--感觉老师的专业非常好，希望孩子能够学到更多的技巧，-->
+                            <!--能像吴老师一样，非常优美的跳舞，非常感谢吴老师。-->
+                            <!--感谢桔子树，学员杨怡果 。-->
+                        <!--</span>-->
+                    <!--</div>-->
+                <!--</a>-->
+            <!--</li>-->
+            <!--<li>-->
+                <!--<a href="" target="_blank">-->
+                    <!--<div class="xypjImg">-->
+                        <!--<img src="../img/1494319121.jpg" alt="谢佩轩">-->
+                    <!--</div>-->
+                    <!--<h3>桔子树学员：谢佩轩</h3>-->
+                    <!--<hr>-->
+                    <!--<div class="xypjCont">-->
+                        <!--<span style="color: rgb(115, 115, 115); font-family: 微软雅黑;">-->
+                            <!--非常感谢桔子树办的舞蹈班，我们让孩子在这里学习非常满意，-->
+                            <!--同时也很放心，尤其特别感谢孙老师，她对学生认真负责，充满爱心，-->
+                            <!--孩子也特别喜欢孙老师，喜欢上孙老师的舞蹈课，在课堂的学习中学到了-->
+                            <!--很多的东西，通过学习舞蹈，孩子的性格也变得更加活泼，特别阳光，-->
+                            <!--在专业上，孩子的柔韧度、灵活性更加完美，每次孩子回家都会很认真的-->
+                            <!--练习老师布置的课后作业，这说明孩子是真心喜欢上了舞蹈，这让我们做-->
+                            <!--家长的特别兴奋，孩子能感兴趣的事情很有可能就会改变孩子的一生，-->
+                            <!--所以我们非常感谢孙老师，很荣幸能让孩子在桔子树学习，感谢桔子树！-->
+                        <!--</span>-->
+                    <!--</div>-->
+                <!--</a>-->
+            <!--</li>-->
+            <!--<li>-->
+                <!--<a href="" target="_blank">-->
+                    <!--<div class="xypjImg">-->
+                        <!--<img src="../img/1494319232.jpg" alt="江小米">-->
+                    <!--</div>-->
+                    <!--<h3>桔子树学员：江小米</h3>-->
+                    <!--<hr>-->
+                    <!--<div class="xypjCont">-->
+                        <!--很喜欢交谊舞，很早就想学了，可是一直只是说说。某一天也是心血来潮，-->
+                        <!--觉得想做就要马上行动，于是就开始搜索。在网上看了很多，经过了筛选，-->
+                        <!--觉得桔子树的综合素质相对较高，于是极其迅速的了解了一下，约了晚上去-->
+                        <!--试课。为了让学员有个学前体验，所以很多舞蹈学校都会有一节免费试课，-->
+                        <!--桔子树也是。交谊舞其实是很挑环境和老师的，我也对这方面比较挑剔。-->
+                        <!--第一次试课，老师的讲解、试课都让我觉得很舒服。所以当晚就报了名，-->
+                        <!--所以跟交谊舞、桔子树以及杨老师的缘分就开始了。<br>-->
+                    <!--</div>-->
+                <!--</a>-->
+            <!--</li>-->
+            <!--<li>-->
+                <!--<a href="" target="_blank">-->
+                    <!--<div class="xypjImg">-->
+                        <!--<img src="../img/1494319261.jpg" alt="刘安琪">-->
+                    <!--</div>-->
+                    <!--<h3>桔子树学员：刘安琪</h3>-->
+                    <!--<hr>-->
+                    <!--<div class="xypjCont">-->
+                        <!--妈妈为我选了好久老师，最终选定妈妈所说的NO.1的桔子树，我实际对考学没有太大的信心，赵老师的话让我有所改变，我慢慢有自信了，也就是说她不仅教我专业的知识还是我的好朋友，谢谢老师！也很感谢桔子树的武老师给我安排教室，为我早早来到学校开门，谢谢！<br>-->
+                    <!--</div>-->
+                <!--</a>-->
+            <!--</li>-->
+            <!--<li>-->
+                <!--<a href="" target="_blank">-->
+                    <!--<div class="xypjImg">-->
+                        <!--<img src="../img/1494316326.jpg" alt="李倩">-->
+                    <!--</div>-->
+                    <!--<h3>桔子树学员：李倩</h3>-->
+                    <!--<hr>-->
+                    <!--<div class="xypjCont">-->
+                        <!--<span style="color: rgb(115, 115, 115); font-family: 微软雅黑;">-->
+                            <!--最初对街舞感兴趣是看音乐MV，感觉随着音乐旋律舞动身体好有魅力。-->
+                            <!--然而，此前的我真的认为自己完全不会跳舞，甚至连广播操都做不标准。-->
+                            <!--当然，现在已经上了有十节课的我，也依然跳得不算好，但，对舞蹈，-->
+                            <!--尤其是街舞的兴趣和喜爱却有增无减。很幸运，第一次报名舞蹈培训班-->
+                            <!--选择了桔子树，也很幸运能遇到位好老师，虽然这位老师向来不乐意我-->
+                            <!--们称她为老师[偷笑]。每到周末，都满怀期待。期待能够见到认真负责，-->
+                            <!--幽默风趣，颜值高身材好，并能Hold住All&nbsp;Style&nbsp;舞蹈-->
+                            <!--的&nbsp;杨老师&nbsp;。杨老师的教学很强调舞蹈基本功，每堂课都拿-->
+                            <!--出一定的时间来练习和强化。虽然是集体班，但，她总能够抓住每个人的-->
+                            <!--优势以及不足之处来给出指导。值得一提的是，她开朗大方的性格也很能-->
+                            <!--调动课堂氛围，让大家能够轻松受教。每每上完课，痛快的满身是汗时，-->
+                            <!--都觉得很开心。每当杨老师&nbsp;示意下课时，又觉得时间过得好快，-->
+                            <!--之后带着意犹未尽离开。课程已经过半，收获很多，但仍然有很多不足以-->
+                            <!--及提升的空间。我相信大部分人都是要经过反复认真的练习才能真正掌握-->
+                            <!--并跳好，我更是如此。我会努力的，不是说说而已哦。最后，感谢杨老师-->
+                            <!--，感恩能够认识一群可爱的小伙伴，让我们一起舞动，一起享受舞动带来-->
+                            <!--的欢乐吧...！-->
+                        <!--</span>-->
+                    <!--</div>-->
+                <!--</a>-->
+            <!--</li>-->
+            <!--<li>-->
+                <!--<a href="" target="_blank">-->
+                    <!--<div class="xypjImg">-->
+                        <!--<img src="../img/1494316348.jpg" alt="周小岚">-->
+                    <!--</div>-->
+                    <!--<h3>桔子树学员：周小岚</h3>-->
+                    <!--<hr>-->
+                    <!--<div class="xypjCont">-->
+                        <!--<span style="color: rgb(115, 115, 115); font-family: 微软雅黑;">-->
+                            <!--其实很早之前就想开始学街舞了～但是直到大学毕业了才下定决心报个班。-->
+                            <!--来到桔子树是因为机缘巧合，桔子树这个大家庭很温暖～所有人都热情而-->
+                            <!--亲切。在这里我遇到了熊老师，可能因为是同龄人～感觉相处得很合得来-->
+                            <!--～老师人很好～非常热情，开朗～由于我是初学者，老师也从头一点一点-->
+                            <!--的交我，一丝不苟^_^，在这里学习觉得进步很大，希望和老师一起继续努-->
+                            <!--力提高舞技～哈哈哈哈哈哈～-->
+                        <!--</span>-->
+                    <!--</div>-->
+                <!--</a>-->
+            <!--</li>-->
+            <!--<li>-->
+                <!--<a href="" target="_blank">-->
+                    <!--<div class="xypjImg">-->
+                        <!--<img src="../img/1495091046.jpg" alt="刘浩然">-->
+                    <!--</div>-->
+                    <!--<h3>桔子树学员：刘浩然</h3>-->
+                    <!--<hr>-->
+                    <!--<div class="xypjCont">-->
+                        <!--才学没多久就能画成这样，让我这个没接触过美术的母亲对儿子算是另眼相看-->
+                        <!--了。本来我还想着让孩子慢慢来，毕竟我们家也还没人开始学习艺术，但孩子-->
+                        <!--的美术细胞算是惊讶我了，当然，这里面有很大一部分是老师的功劳，在此对-->
+                        <!--老师表示感谢。当初听邻居的建议选了桔子树，果真是没错的！期待孩子以-->
+                        <!--后的成长！-->
+                    <!--</div>-->
+                <!--</a>-->
+            <!--</li>-->
+            <!--<li>-->
+                <!--<a href="" target="_blank">-->
+                    <!--<div class="xypjImg">-->
+                        <!--<img src="../img/1495090157.jpg" alt="依依">-->
+                    <!--</div>-->
+                    <!--<h3>桔子树学员：依依</h3>-->
+                    <!--<hr>-->
+                    <!--<div class="xypjCont">-->
+                        <!--孩子的手法越来越娴熟，画成这样我已经非常满意了。老师也跟我交流说孩子-->
+                        <!--进步特别大，上课从来不走神，每一步都紧紧地跟着老师，我听着很开心。-->
+                        <!--孩子回家也说老师教得特别好，她特别喜欢跟老师学画画，还说长大后要像老-->
+                        <!--师一样去教别的小朋友。在桔子树学习的时间不算长，但这样的进步让我很是-->
+                        <!--欣慰，感谢桔子树！-->
+                    <!--</div>-->
+                <!--</a>-->
+            <!--</li>-->
+            <!--<li>-->
+                <!--<a href="" target="_blank">-->
+                    <!--<div class="xypjImg">-->
+                        <!--<img src="../img/1495090203.jpg" alt="王佳乐">-->
+                    <!--</div>-->
+                    <!--<h3>桔子树学员：王佳乐</h3>-->
+                    <!--<hr>-->
+                    <!--<div class="xypjCont">-->
+                        <!--孩子画的很棒，我很骄傲，然后忍不住又给孩子买了一套新画具。都说学画画-->
+                        <!--造钱，我孩子在桔子树一节课也花不了多少钱，关键是成果颇丰啊，进步很-->
+                        <!--快啊，这让我很满意。桔子树的老师不像别的培训机构的老师那样势力，-->
+                        <!--光想着从我们身上淘点金···桔子树，信得过，老师也是专业，选对地方了，-->
+                        <!--我都想跟孩子一起学了。-->
+                    <!--</div>-->
+                <!--</a>-->
+            <!--</li>-->
+            <!--<li>-->
+                <!--<a href="" target="_blank">-->
+                    <!--<div class="xypjImg">-->
+                        <!--<img src="../img/1497420875.jpg" alt="孙薇薇">-->
+                    <!--</div>-->
+                    <!--<h3>桔子树学员：孙薇薇</h3>-->
+                    <!--<hr>-->
+                    <!--<div class="xypjCont">-->
+                        <!--看着好像蛮简单的，但都是孩子的心血呀！当初送孩子走这条艺术之路是没-->
+                        <!--错的，选的桔子树和老师也是没错的，我第一次这么肯定自己的眼光了！-->
+                        <!--终于为孩子做了一件有意义的事情，看着孩子这样成长，我的心里别提有-->
+                        <!--多高兴了。感谢桔子树，感谢老师！-->
+                    <!--</div>-->
+                <!--</a>-->
+            <!--</li>-->
+            <!--<li>-->
+                <!--<a href="" target="_blank">-->
+                    <!--<div class="xypjImg">-->
+                        <!--<img src="../img/1495091220.jpg" alt="刘佳佳">-->
+                    <!--</div>-->
+                    <!--<h3>桔子树学员：刘佳佳</h3>-->
+                    <!--<hr>-->
+                    <!--<div class="xypjCont">-->
+                        <!--看到孩子画的画儿，我是很开心的，因为我见识了孩子从画笔都不会拿到现-->
+                        <!--在画出一幅作品的历程，看着看着都想哭。每个家长都是不容易的，每个孩子-->
+                        <!--也是不容易的，当然，还有一丝不苟、认真教学的老师，专业素质很强，-->
+                        <!--为人师表，没有可以挑剔的地方。桔子树的教学环境也不错，尤其是这种一-->
+                        <!--对一私人教学模式，非常棒！-->
+                    <!--</div>-->
+                <!--</a>-->
+            <!--</li>-->
+            <!--<li>-->
+                <!--<a href="" target="_blank">-->
+                    <!--<div class="xypjImg">-->
+                        <!--<img src="../img/1495091237.jpg" alt="狄笑"></div>-->
+                    <!--<h3>桔子树学员：狄笑</h3>-->
+                    <!--<hr>-->
+                    <!--<div class="xypjCont">-->
+                        <!--作为家长嘛，我其实没什么艺术才艺，才想着给孩子点不一样的。当初选素-->
+                        <!--描是桔子树的老师推荐的，说我家孩子的各方面素质适合学素描，这不，才-->
+                        <!--不久，进步就这么大！桔子树的老师也是够专业了，对孩子的测试能力太强-->
+                        <!--大！老师教的也是相当不错，课上课下都会不时跟我交流，热心肠，专业。-->
+                    <!--</div>-->
+                <!--</a>-->
+            <!--</li>-->
+        </ul>
+        <div class="clear"></div>
+        <div class="fenye">
+            <span class="pageinfo">共
+                <label id="total">171</label>条 1/15 页</span>
+            <span class="pagefirst">首页</span>
+            <span class="pageup">上一页</span>
+            <span class="current">1</span>
+            <a class="pagenum" href="">&nbsp;2&nbsp;</a>
+            <a class="pagenum" href="">&nbsp;3&nbsp;</a>
+            <a class="pagenum" href="">&nbsp;4&nbsp;</a>
+            <a class="pagenum" href="">&nbsp;5&nbsp;</a>
+            <a class="pagenum" href="">&nbsp;6&nbsp;</a>
+            <a class="pagenum" href="">&nbsp;7&nbsp;</a>
+            <a class="pagenum" href="">&nbsp;8&nbsp;</a>
+            <a class="pagenum" href="">&nbsp;9&nbsp;</a>
+            <a class="pagenum" href="">&nbsp;10&nbsp;</a>
+            <a class="pagenextall" href="">下10页</a>
+            <a class="pagedown" href="">下一页</a>
+            <a class="pageend" href="">尾页</a></div>
+    </div>
+</div>
+<!--学员评价  end-->
+<!--免费评测 start-->
+<div class="fluid bg-ceping">
+    <div class="ltm-box ceping ">
+        <h2>免费测评</h2>
+        <p>桔子树为您提供专业的声乐、舞蹈、器乐、美术培训，
+            <br>教您快速掌握唱歌、舞蹈、器乐、美术所需专业技巧。
+            <br>现在，桔子树正在开展免费测评体验活动，帮助您找到最适合自己的歌唱唱法、
+            <br>舞蹈类型、音乐乐器、美术科目！想要测试的亲赶紧预约吧！
+        </p>
+        <div class="ceping-btn">
+            <a href="">在线测评</a>
+            <a >预约到校体验</a>
+        </div>
+    </div>
+</div>
+<!--免费评测 end-->
+<!--就进校区 start-->
+<!--<div class="fluid">-->
+<!--<div class="ltm-box ceping ">-->
+<!--<h2>就近选择校区</h2>-->
+<!--<iframe src="dt/dituye.html" frameborder="0"></iframe>-->
+<!--</div>-->
+<!--</div>-->
+<!--就进校区 end-->
+<!--官方合作单位 start-->
+<div class="fluid">
+    <div class="ltm-box main-ry ptb50">
+        <h3>官方合作机构</h3>
+        <img class="ji-img" src="../img/jigou.jpg" alt="">
+        <span id="zp">马志鹏</span>
+    </div>
+</div>
+<!--官方合作单位 end-->
+<!--footer start-->
+
+<div class="clear"></div>
+<footer class="fluid bg-shui" style="height:360px;">
+    <div class="container o-auto ltm-box">
+        <div class="ulList">
+            <ul>
+                <li class="listTop"><a>关于我们</a></li>
+                <li><a href="#">师资力量</a></li>
+                <li><a href="#">教学模式</a></li>
+                <li><a href="#">课程研发</a></li>
+                <li><a href="#">加入我们</a></li>
+            </ul>
+            <ul>
+                <li class="listTop"><a>课程设置</a></li>
+                <li><a href="#">声乐培训</a></li>
+                <li><a href="#">舞蹈培训</a></li>
+                <li><a href="#">器乐培训</a></li>
+                <li><a href="#">美术培训</a></li>
+                <li><a href="#">艺考考级</a></li>
+            </ul>
+            <ul>
+                <li class="listTop"><a>学员评价</a></li>
+                <li><a href="#">声乐评价</a></li>
+                <li><a href="#">舞蹈评价</a></li>
+                <li><a href="#">器乐评价</a></li>
+                <li><a href="#">美术作品</a></li>
+                <li><a href="#">常见问题</a></li>
+            </ul>
+            <ul>
+                <li class="listTop"><a>精彩视频</a></li>
+                <li><a href="#">歌唱大赛</a></li>
+                <li><a href="#">才艺大赛</a></li>
+                <li><a href="#">CCTV少儿</a></li>
+                <li><a href="#">教学视频</a></li>
+            </ul>
+            <ul>
+                <li class="listTop"><a>服务专区</a></li>
+                <li><a href="javascript:">我要报名</a></li>
+                <li><a href="javascript:">免费试听</a></li>
+                <li><a href="javascript:">校区地址</a></li>
+                <li><a href="javascript:">约课电话</a></li>
+            </ul>
+        </div>
+        <div id="erwei" style="padding-top:57px;">
+            <div class="erwei-app"></div>
+            <div class="erwi-gz"></div>
+            <p>京ICP备11048020号</p>
+            <p>版权所有@2017.北京桔子树音乐艺术培训有限公司</p>
+            <h1 style="margin-left: 90px;"><img src="../img/ltm-rz.png"> </h1>
+        </div>
+        <div style="clear:both;"></div>
+    </div>
+</footer>
+<div class="xzdianhua">
+    <p class="ltm-box">咨询服务电话：400-616-9916</p>
+</div>
+<!--footer end-->
+<!--返回顶部-->
+<a class="goTop" href="javascript:" style="visibility: visible;">&and;</a>
+<!--悬浮窗-->
+<div class="xiaoneng-xf"><img src="../img/ltm-xf.png" alt="悬浮窗"></div>
+</body>
+</html>
+<script src="../js/ltm-js.js"></script>
